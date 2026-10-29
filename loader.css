@@ -1,0 +1,19 @@
+.box{
+    color: blueviolet;
+    border: 5px solid red;
+    border-top: 5px solid blue;
+    border-radius: 50%;
+    background-color: brown;
+    height: 400px;
+    width: 400px;px;
+    animation: loder 5s linear infinite;
+}
+@keyframes loder{
+    from{
+         transform: rotate(0);
+    }
+    to{
+         transform: rotate(360deg);
+    }
+
+}
